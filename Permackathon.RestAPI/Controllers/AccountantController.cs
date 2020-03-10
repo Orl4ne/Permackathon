@@ -29,8 +29,15 @@ namespace Permackathon.API.Controllers
         [HttpPost]
         public EffectiveTO AddEffectiveData([FromBody] EffectiveTO effectiveData)
         {
-            return _Service.AddEffectiveData(effectiveData);
+            var ret = _Service.AddEffectiveData(effectiveData);
+            return ret;
         }
+
+        /*[HttpPost]
+        public IActionResult EffectiveData([FromBody] EffectiveTO effectiveData)
+        {
+            
+        }*/
 
         //===================================== Methods from UserController
         // GET: api/Accountant
