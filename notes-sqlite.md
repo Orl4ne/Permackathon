@@ -1,6 +1,5 @@
 # Notes Permackathon
 
-
 ## Financial.DAL -> SQLite
 Je pense que les options DB sont directement injectées dans le Startup.cs de l'API.
 
