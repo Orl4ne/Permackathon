@@ -8,7 +8,7 @@ using Permackathon.Customer.DAL;
 
 namespace Permackathon.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class CommercialController : ControllerBase
     {
